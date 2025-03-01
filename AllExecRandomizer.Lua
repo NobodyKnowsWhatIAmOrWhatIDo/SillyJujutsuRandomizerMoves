@@ -109,7 +109,7 @@ local SukunaKBs = Window:CreateTab ("Sukuna Keybinds", 4483362458) --Tile, Image
    HoldToInteract = false,
    Flag = "Dismantle", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Keybind)
-   Game:GetService("ReplicatedStorage"):WaitForChild("sukuna"):WaitForChild("remotes"):WaitForChild("Dismantle"):FireServer()   -- The function that takes place when the keybind is pressed
+   Game:GetService("ReplicatedStorage"):WaitForChild("sukuna"):WaitForChild("remotes"):WaitForChild("dismantle"):FireServer()   -- The function that takes place when the keybind is pressed
    -- The variable (Keybind) is a boolean for whether the keybind is being held or not (HoldToInteract needs to be true)
    end,
 })
@@ -142,7 +142,7 @@ local SukunaKBs = Window:CreateTab ("Sukuna Keybinds", 4483362458) --Tile, Image
    HoldToInteract = false,
    Flag = "SukunaRush", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Keybind)
-   Game:GetService("ReplicatedStorage"):WaitForChild("sukuna"):WaitForChild("remotes"):WaitForChild("Rush"):FireServer()   -- The function that takes place when the keybind is pressed
+   Game:GetService("ReplicatedStorage"):WaitForChild("sukuna"):WaitForChild("remotes"):WaitForChild("rush"):FireServer()   -- The function that takes place when the keybind is pressed
    -- The variable (Keybind) is a boolean for whether the keybind is being held or not (HoldToInteract needs to be true)
    end,
 })
@@ -164,7 +164,7 @@ local SukunaKBs = Window:CreateTab ("Sukuna Keybinds", 4483362458) --Tile, Image
    HoldToInteract = false,
    Flag = "KamotukeThrow", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Keybind)
-   Game:GetService("ReplicatedStorage"):WaitForChild("randommovesets"):WaitForChild("remotes"):WaitForChild("kaminara"):FireServer()   -- The function that takes place when the keybind is pressed
+   Game:GetService("ReplicatedStorage"):WaitForChild("randommoveset"):WaitForChild("remotes"):WaitForChild("kaminara"):FireServer()   -- The function that takes place when the keybind is pressed
    -- The variable (Keybind) is a boolean for whether the keybind is being held or not (HoldToInteract needs to be true)
    end,
 })
@@ -189,7 +189,7 @@ local Keybind = Moves:CreateKeybind({
     Flag = "",
     Callback = function(Keybind)
         -- In the 4 minutes and 11 seconds
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Hakari"):FireServer()
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("HAKARI"):FireServer()
     end,
 })
 
